@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #DCF0F2;
+    line-height: 25px;
+}
+
+h1 {
+    color: #182526;
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0;
+    text-shadow: 2px 2px 2px #DCF0F2;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 1000;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 20px;
+
+}
+
+/* Los colores del sitio
+- #182526 - Más oscuro. Color de nav, footer, aside. 
+- #DCF0F2 - Más claro. Color de body.
+- #A8BBBF - Intermedio. Color de section.
+- #72858C - Shadow de section.
+*/

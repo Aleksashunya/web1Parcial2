@@ -1,0 +1,16 @@
+img {
+    height: 200px;
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+main {
+    text-align: center;
+    margin-right: 20px;
+}
