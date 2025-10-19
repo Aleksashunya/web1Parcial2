@@ -7,7 +7,7 @@ html, body {
 
 h1 {
     color: #182526;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 1000;
     margin: 0;
     text-shadow: 2px 2px 2px #DCF0F2;
@@ -21,7 +21,6 @@ h2 {
 
 h3 {
     font-size: 20px;
-
 }
 
 /* Los colores del sitio

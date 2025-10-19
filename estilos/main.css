@@ -1,20 +1,14 @@
 header {
-    background: #DCF0F2;
-    background: radial-gradient(
-        circle,
-        rgba(220, 240, 242, 1) 6%, 
-        rgba(210, 230, 232, 1) 10%, 
-        rgba(114, 133, 140, 1) 28%,
-        rgba(24, 37, 38, 1) 100%
-    );
-    color: #182526;
+    color: #DCF0F2;
+    font-size: 20px;
     text-align: center;
     line-height: normal;
-}
-
-header img {
-    width: 100%;
-    max-height: 280px;
+    background-image: url(../imagines/headerWaves.jpeg);
+    background-size: 100% 280px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 280px;
+    align-content: center;
 }
 
 nav {
@@ -22,6 +16,8 @@ nav {
     color: #fff;
     text-align: center;
     display: inline;
+    position: sticky;
+    top: 0%;
 }
 
 nav ul {
@@ -79,4 +75,11 @@ footer {
 iframe {
     width: 80%;
     border: 0px;
+}
+
+#comunicacion {
+    position:fixed;
+    bottom: 3%;
+    right: 5%;
+    height: 80px;
 }
