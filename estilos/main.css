@@ -78,8 +78,14 @@ iframe {
 }
 
 #comunicacion {
-    position:fixed;
+    position: fixed;
     bottom: 3%;
     right: 5%;
     height: 80px;
+    transition: height 0.5s linear;
+}
+
+#comunicacion:hover {
+    height: 100px;
+    transition: height 0.5s linear;
 }

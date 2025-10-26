@@ -11,14 +11,6 @@ p {
     text-align: left;
 }
 
-a {
-    text-decoration: none;
-    background-color: #182526;
-    padding: 10px;
-    border-radius: 15px;
-    color: #fff
-}
-
 img {
     height: 200px;
 }
