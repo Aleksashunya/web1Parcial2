@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 250px;
+    max-width: 100%;
+}
+
+#cajaGrilla {
+    font-size: 15px;
+    padding: 20px;
+    gap: 10px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "resumen    resumen vision  vision"
+    "publico    publico legado  legado"
+    "frases     frases  legado  legado"
+    "art1       musica  musica  art2";
+}
+
+ul {
+    text-align: left; 
+}
+
+section {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#resumen {
+    background-color: black;
+    color: white;
+    align-content: center;
+    grid-area: resumen;
+
+    img {
+       float: left;
+       padding: 10px;
+    }
+
+    h3 {
+      text-align: center;  
+    }
+}
+
+#vision {
+    background-color: #A8BBBF;
+    text-align: center;
+    grid-area: vision;
+}
+
+#publico {
+    background-color: #475459;
+    color: white;
+    text-align: center;
+    grid-area: publico;
+}
+
+#legado {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: start;
+    padding-top: 0px;
+    grid-area: legado;
+}
+
+#frases {
+    background-color: #A8BBBF;
+    text-align: center;
+    grid-area: frases;
+}
+
+#art1 {
+    background-color: #A8BBBF;
+    grid-area: art1;
+    text-align: center;
+}
+
+#art2 {
+    background-color: #A8BBBF;
+    grid-area: art2;
+    text-align: center;
+}
+
+#musica {
+    background-color:  #475459;
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-area: musica;
+    
+    img {
+        float: right;
+    }
+    
+    ul {
+        list-style-image: url(../imagines/play.png);
+    }
+}

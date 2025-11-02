@@ -1,7 +1,14 @@
 .linkButton {
     text-decoration: none;
     background-color: #182526;
-    padding: 10px;
-    border-radius: 15px;
-    color: #fff
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    transition: padding 0.2s linear;
+}
+
+
+.linkButton:hover {
+    padding: 4px;
+    transition: padding 0.2s linear;
 }
