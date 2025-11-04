@@ -4,19 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
     <title>Contacto</title>
 </head>
 <body>
     <main>
-        <article>
-            <h2>Enlaces externos</h2>
-            <ul>
-                <li><a href="https://es.wikipedia.org/wiki/Interstellar" target="_blank">Wikipedia</a></li>
-                <li><a href="https://www.imdb.com/title/tt0816692/?ref_=ttmi_ov_bk" target="_blank">IMDb</a></li>
-                <li><a href="https://www.netflix.com/ar/title/70305903" target="_blank">Netflix</a></li>
-                <li><a href="https://www.filmaffinity.com/es/film704416.html" target="_blank">filmAffinity</a></li>
-            </ul>
-        </article>
+        <div id="cajaGrilla">
+            <!-- Section de Enlaces externos -->
+            <section id="enlaces">
+                <img src="../imagines/enlace.png" alt="Enlace imagen">
+                <h3>Enlaces externos</h3>
+                <ul>
+                    <li><a href="https://es.wikipedia.org/wiki/Interstellar" target="_blank">Wikipedia</a></li>
+                    <li><a href="https://www.imdb.com/title/tt0816692/?ref_=ttmi_ov_bk" target="_blank">IMDb</a></li>
+                    <li><a href="https://www.netflix.com/ar/title/70305903" target="_blank">Netflix</a></li>
+                    <li><a href="https://www.filmaffinity.com/es/film704416.html" target="_blank">filmAffinity</a></li>
+                </ul>
+            </section>
+
+            <!-- Section de formulario Únete a la comunidad de fans -->
+            <section id="fans">
+                <img src="../imagines/join.jpeg" alt="Join imagen">
+                <form action="./confirmacion.html" method="get">
+                    <fieldset>
+                        <legend><h3>¿Te gusta esta película? ¡Únete a la comunidad de fans!</h3></legend>
+                        
+                        <input name="nombre" placeholder="Nombre" type="text" id="user_name" required>
+                        <input name="apellido" placeholder="Apellido" type="text" id="user_apellido" required>
+                        <input name="mail" placeholder="Correo" type="email" id="user_correo" required>
+                        <input name="phone" placeholder="Número de teléfono" type="phone" id="user_telefono" required>
+                        <input type="number" placeholder="Edad" min="0" id="user_edad" required>
+                        <br>
+                        
+                        <select name="sexo" id="user_sexo" required>
+                            <option value="sexo" disabled>Sexo</option>/select>
+                            <option value="masculino">Masculino</option>/select>
+                            <option value="femenino">Femenino</option>
+                        </select>
+                        
+                        <select name="País" id="user_país" required>
+                            <option value="país" disabled>País</option>/select>
+                            <option value="argentina">Argentina</option>/select>
+                            <option value="brasil">Brasil</option>
+                            <option value="italia">Italia</option>
+                            <option value="rusia">Rusia</option>
+                            <option value="usa">USA</option>
+                            <option value="venezuela">Venezuela</option>
+                        </select>
+                        <br>
+                        
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- Section de formulario Valora nuestro sitio web -->
+            <section id="valore">
+                <form action="./confirmacion.html" method="get">
+                    <fieldset>
+                        <legend><h3>Valora nuestro sitio web</h3></legend>
+                        
+                        <label>
+                            <h4>¿Cómo te enteraste de nosotros?</h4>
+                            <label>
+                                <input type="radio" name="supiste" id="valore_amigos">
+                                Amigos
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" name="supiste" id="valore_novedad">
+                                Novedad
+                            </label>
+                            <br>
+                            <label>
+                                <input type="radio" name="supiste" id="valore_publicidad">
+                                Publicidad
+                            </label>
+                        </label>
+                        <br><br>
+
+                        <label>
+                            <h4>¿Qué es lo que más te gusta?</h4>
+                            <label>
+                                <input type="checkbox" name="gusta" id="gusta_diseno">
+                                Diseño
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="gusta" id="gusta_contenido">
+                                Contenido
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="gusta" id="gusta_imagenes">
+                                Imagenes
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="gusta" id="gusta_servicio">
+                                Servicio al cliente
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" name="gusta" id="gusta_navegacion">
+                                Facilidad para navegar
+                            </label>
+                        </label>
+                        <br><br>
+
+                        <label>
+                            <h4>Valora nuestro sitio web (de 0 a 10)</h4>
+                            <input type="range" min="0" max="10" step="1" name="">
+                        </label>
+                        <br><br>
+
+                        <label>
+                            <h4>Tu mensaje para nuestro equipo</h4>
+                            <textarea name="Mensaje" id="mensaje" placeholder="Sugerencias y comentarios"></textarea>
+                        </label>
+                        <br><br>
+                    
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
     </main>
 </body>
 </html>

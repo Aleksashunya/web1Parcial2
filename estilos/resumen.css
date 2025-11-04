@@ -20,7 +20,7 @@ img {
     "resumen    resumen vision  vision"
     "publico    publico legado  legado"
     "frases     frases  legado  legado"
-    "art1       musica  musica  art2";
+    "trailer    trailer musica  musica";
 }
 
 ul {
@@ -76,30 +76,25 @@ section {
     grid-area: frases;
 }
 
-#art1 {
+#trailer {
     background-color: #A8BBBF;
-    grid-area: art1;
+    grid-area: trailer;
     text-align: center;
-}
 
-#art2 {
-    background-color: #A8BBBF;
-    grid-area: art2;
-    text-align: center;
+    iframe {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
 }
 
 #musica {
-    background-color:  #475459;
-    color: white;
+    background-color: #A8BBBF;
     text-align: center;
     align-content: center;
     grid-area: musica;
-    
+
     img {
         float: right;
-    }
-    
-    ul {
-        list-style-image: url(../imagines/play.png);
+        background-color: brown;
     }
 }
