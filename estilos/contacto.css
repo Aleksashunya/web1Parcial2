@@ -3,9 +3,21 @@
     box-sizing: border-box;
 }
 
+img {
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+fieldset {
+    text-align: left;
+}
+
 #cajaGrilla {
     font-size: 15px;
-    padding: 20px;
+    padding-right: 20px;
     gap: 10px;
     display: grid;
     height: fit-content;
@@ -15,10 +27,6 @@
     "valore    fans"
     "valore    fans"
     "valore    enlaces";
-}
-
-img {
-    padding: 10px;
 }
 
 #enlaces {
@@ -34,9 +42,10 @@ img {
 }
 
 #fans {
-    background-color: #A8BBBF;  
+    background-color: black; 
     text-align: center;
     grid-area: fans;
+    color: white;
 
     img {
        float: left;
@@ -76,21 +85,3 @@ img {
         min-height: 50px;
     }
 }
-
-section {
-    border-radius: 10px;
-    padding: 20px;
-}
-
-fieldset {
-    border-radius: 10px;
-    text-align: left;
-}
-
-button {
-        height: 30px;
-        width: 100%;
-        background-color: #DCF0F2;
-        font-weight: bold;
-        font-size: small;
-    }

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interestellar</title>
     <link rel="stylesheet" href="./estilos/general.css">
     <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/elementos.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./imagines/favicon.png">
     <link rel="apple-touch-icon" href="./imagines/favicon.png">
 </head>
 <body>
+    <!-- Navigation bar -->
     <nav>
+        <img src="./imagines/logo.png" alt="Logo">
         <ul>
             <li><a href="./contenido/resumen.html" target="content">Inicio</a></li>
             <li><a href="./contenido/about.html" target="content">Sobre la película</a></li>
@@ -21,6 +24,7 @@
         </ul>
     </nav>
 
+    <!-- Header -->
     <header>
         <h1>Interstellar</h1>
         <p><em><q>La humanidad nació en la Tierra, pero no está destinada a morir aquí</q></em></p>
@@ -29,6 +33,7 @@
     <main>
         <iframe name="content" src="./contenido/resumen.html"></iframe>
 
+        <!-- Aside -->
         <aside>
             <h3>Información básica</h3>
 
@@ -51,13 +56,14 @@
             <img src="./imagines/poster.webp" alt="Póster imagen">
         </aside>
 
+        <!-- Message block -->
         <div id="mensaje">
             <form action="./contenido/confirmacion.html" target="content" method="get">
                 <fieldset>
                     <legend><h3>Póngase en contacto con el Servicio al cliente</h3></legend>
                     <textarea name="Mensaje" id="user_mensaje" placeholder="Suggestions and comments"></textarea>
                     <br>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" class="submitButton">Enviar</button>
                 </fieldset>
             </form>
         </div>
@@ -70,7 +76,9 @@
         </a>
     </main>
     
+    <!-- Footer -->
     <footer>
+        <img src="./imagines/logo.png" alt="Logo">
         <p>&copy; 2025 Melnikova Aleksandra. Todos los derechos reservados.</p>
     </footer>
 </body>

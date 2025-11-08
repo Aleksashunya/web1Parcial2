@@ -4,10 +4,10 @@ header {
     text-align: center;
     line-height: normal;
     background-image: url(../imagines/headerWaves.jpeg);
-    background-size: 100% 280px;
+    background-size: 100% 200px;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    height: 280px;
+    height: 200px;
     align-content: center;
 }
 
@@ -18,20 +18,25 @@ nav {
     display: inline;
     position: sticky;
     top: 0%;
-}
+    
+    ul {
+        margin: 0;
+    }
 
-nav ul {
-    margin: 0;
-}
+    ul li {
+        display: inline;
+        margin-right: 30px;
+    }
+    
+    ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
 
-nav ul li {
-    display: inline;
-    margin-right: 30px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    img {
+        float: left;
+        height: 25px;
+    }
 }
 
 main {
@@ -55,21 +60,25 @@ aside {
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
-}
 
-aside section {
-    text-align: left;
-}
+    section {
+        text-align: left;
+    }
 
-aside img {
-    height: 300px;
+    img {
+        height: 300px;
+    }
 }
 
 footer {
     background: #182526;
     color: #fff;
     text-align: center;
+
+    img {
+        float: left;
+        height: 25px;
+    }
 }
 
 iframe {
@@ -98,16 +107,14 @@ iframe {
     position: fixed;
     bottom: 12%;
     right: -1000px;
-    transition: right .7s ease;
     background-color: #DCF0F2;
     border-radius: 10px;
-    overflow: visible;
     padding: 20px;
-    transition: right 0.8s linear;
     border-color: #72858C;
     border-width: 2px;
     border-style: solid;
     box-shadow: 2px 2px 2px #72858C;
+    transition: right 0.8s linear;
 
     textarea {
         width: 350px;
