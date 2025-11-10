@@ -85,3 +85,16 @@ fieldset {
         min-height: 50px;
     }
 }
+
+#hiddenPuntos {
+    display: none;
+}
+
+#mostrarButton {
+    color: white;
+    padding: 5px;
+    background-color: #182526;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 10px;
+}

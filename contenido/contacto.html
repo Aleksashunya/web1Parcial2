@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../estilos/general.css">
     <link rel="stylesheet" href="../estilos/contacto.css">
     <link rel="stylesheet" href="../estilos/elementos.css">
+    <script src='../scriptos/script.js'></script>
     <title>Contacto</title>
 </head>
 <body>
@@ -81,7 +82,32 @@
                                 <input type="radio" name="supiste" id="valore_publicidad">
                                 Publicidad
                             </label>
+
+                            <div id="hiddenPuntos">
+                                <label>
+                                    <input type="radio" name="supiste" id="valore_google">
+                                    Google
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="supiste" id="valore_escuela">
+                                    Escuela/Trabajo
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="supiste" id="valore_parientes">
+                                    Parientes
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="supiste" id="valore_comiccon">
+                                    Comic Con
+                                </label>
+                            </div>
                         </label>
+                        
+                        <div onclick='mostrarMas()' id="mostrarButton">Mostrar Más</div>
+            
                         <br><br>
 
                         <label>
