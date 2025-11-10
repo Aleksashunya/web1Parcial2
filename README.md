@@ -20,3 +20,4 @@ Proyecto para la materia **Programación Web I**
 - Página de **éxito** al enviar los datos del formulario
 - Página de **error 404** con diseño personalizado
 - **Favicon** agregado al sitio web
+- Logica de hidden puntos en en la página de contacto con script
